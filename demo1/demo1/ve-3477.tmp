@@ -1,0 +1,500 @@
+// demo1.cpp : 定义应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include "demo1.h"
+#include <Commctrl.h>
+#include "commdlg.h"
+#include "vector"
+#include "string"
+#include <fstream>
+#include <ctype.h>
+#include <vector>
+
+#define ID_FILEWAYEDIT       1
+#define ID_OPENFILEBTN       2
+#define ID_LEVEL             3
+#define ID_MODULE            4
+#define ID_ALL               5
+#define ID_INFO              6
+#define ID_WARNNING          7
+#define ID_ERROR             8
+#define ID_COMBAUDIO         9
+#define ID_COMBVIDEO         10
+#define ID_COMBDOC           11
+#define ID_COMBQA            12
+#define ID_COMBVOTE          13
+#define ID_COMBCHAT          14
+#define ID_COMBLOD           15
+#define ID_COMBFT            16
+#define ID_LISTVIEW          17
+#define MAX_LOADSTRING 100
+
+
+
+std::wstring UTF8ToUnicode( const std::string &str);
+
+
+
+// 全局变量:
+
+static int cxChar;
+static int cyChar;
+HINSTANCE hInst;								// 当前实例
+TCHAR szTitle[MAX_LOADSTRING];					// 标题栏文本
+TCHAR szWindowClass[MAX_LOADSTRING];			// 主窗口类名
+
+// 此代码模块中包含的函数的前向声明:
+ATOM				MyRegisterClass(HINSTANCE hInstance);
+BOOL				InitInstance(HINSTANCE, int);
+LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
+INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
+
+
+int APIENTRY _tWinMain(HINSTANCE hInstance,
+                     HINSTANCE hPrevInstance,
+                     LPTSTR    lpCmdLine,
+                     int       nCmdShow)
+{
+	UNREFERENCED_PARAMETER(hPrevInstance);
+	UNREFERENCED_PARAMETER(lpCmdLine);
+
+ 	// TODO: 在此放置代码。
+	MSG msg;
+	HACCEL hAccelTable;
+
+	// 初始化全局字符串
+	LoadString(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
+	LoadString(hInstance, IDC_DEMO1, szWindowClass, MAX_LOADSTRING);
+	MyRegisterClass(hInstance);
+
+	// 执行应用程序初始化:
+	if (!InitInstance (hInstance, nCmdShow))
+	{
+		return FALSE;
+	}
+
+	hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_DEMO1));
+
+	// 主消息循环:
+	while (GetMessage(&msg, NULL, 0, 0))
+	{
+		if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+		{
+			TranslateMessage(&msg);
+			DispatchMessage(&msg);
+		}
+	}
+
+	return (int) msg.wParam;
+}
+
+
+
+//
+//  函数: MyRegisterClass()
+//
+//  目的: 注册窗口类。
+//
+//  注释:
+//
+//    仅当希望
+//    此代码与添加到 Windows 95 中的“RegisterClassEx”
+//    函数之前的 Win32 系统兼容时，才需要此函数及其用法。调用此函数十分重要，
+//    这样应用程序就可以获得关联的
+//    “格式正确的”小图标。
+//
+ATOM MyRegisterClass(HINSTANCE hInstance)
+{
+	WNDCLASSEX wcex;
+
+	wcex.cbSize = sizeof(WNDCLASSEX);
+
+	wcex.style			= CS_HREDRAW | CS_VREDRAW;
+	wcex.lpfnWndProc	= WndProc;
+	wcex.cbClsExtra		= 0;
+	wcex.cbWndExtra		= 0;
+	wcex.hInstance		= hInstance;
+	wcex.hIcon			= LoadIcon(hInstance, MAKEINTRESOURCE(IDI_DEMO1));
+	wcex.hCursor		= LoadCursor(NULL, IDC_ARROW);
+	wcex.hbrBackground	= CreateSolidBrush(GetSysColor(COLOR_BTNFACE));//(HBRUSH)(COLOR_WINDOW+1);
+	wcex.lpszMenuName	= NULL;//MAKEINTRESOURCE(IDC_DEMO1);
+	wcex.lpszClassName	= szWindowClass;
+	wcex.hIconSm		= LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_SMALL));
+
+	return RegisterClassEx(&wcex);
+}
+
+//
+//   函数: InitInstance(HINSTANCE, int)
+//
+//   目的: 保存实例句柄并创建主窗口
+//
+//   注释:
+//
+//        在此函数中，我们在全局变量中保存实例句柄并
+//        创建和显示主程序窗口。
+//
+BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
+{
+   HWND hWnd;
+
+   hInst = hInstance; // 将实例句柄存储在全局变量中
+
+   hWnd = CreateWindow(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,//WS_OVERLAPPED|WS_SYSMENU|WS_MINIMIZEBOX|WS_CAPTION,
+      CW_USEDEFAULT, 0, 430, 550, NULL, NULL, hInstance, NULL);
+
+   if (!hWnd)
+   {
+      return FALSE;
+   }
+   
+   ShowWindow(hWnd, nCmdShow);
+   UpdateWindow(hWnd);
+
+   return TRUE;
+}
+
+//
+//  函数: WndProc(HWND, UINT, WPARAM, LPARAM)
+//
+//  目的: 处理主窗口的消息。
+//
+//  WM_COMMAND	- 处理应用程序菜单
+//  WM_PAINT	- 绘制主窗口
+//  WM_DESTROY	- 发送退出消息并返回
+//
+//
+LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+{	
+	static OPENFILENAME ofn;
+    static TCHAR szFileName[MAX_PATH];
+    static TCHAR szTitleName[MAX_PATH];
+    static TCHAR szFilter[]=TEXT("日志文件(*.gen)\0*.gen\0\0");
+
+	int wmId, wmEvent;
+	PAINTSTRUCT ps;
+	HDC hdc;
+	static HWND filewayEdit;
+	static HWND openfilebtn;
+	static HWND level;
+	static HWND module;
+	static HWND allbtn;
+	static HWND infobtn;
+	static HWND warnningbtn;
+	static HWND errorbtn;
+	static HWND combo;
+	static HWND hlistview;
+   
+
+	switch (message)
+	{
+	case WM_CREATE:      
+		{
+			cxChar=HIWORD(GetDialogBaseUnits());
+			cyChar=LOWORD(GetDialogBaseUnits());
+
+
+			filewayEdit = CreateWindowEx(WS_EX_CLIENTEDGE,TEXT("edit"),NULL,WS_CHILD|WS_VISIBLE|WS_BORDER|ES_LEFT|ES_AUTOHSCROLL,0,0,0,0,hWnd,(HMENU)ID_FILEWAYEDIT,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			openfilebtn=CreateWindow(TEXT("button"),TEXT("&open"),WS_CHILD|WS_VISIBLE|BS_PUSHBUTTON,0,0,0,0,hWnd,(HMENU)ID_OPENFILEBTN,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			level=CreateWindow(TEXT("static"),TEXT("&Level:"),WS_CHILD|WS_VISIBLE|SS_LEFT,0,0,0,0,hWnd,(HMENU)ID_LEVEL,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			module=CreateWindow(TEXT("static"),TEXT("M&odule:"),WS_CHILD|WS_VISIBLE|SS_LEFT,0,0,0,0,hWnd,(HMENU)ID_MODULE,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			allbtn=CreateWindow(TEXT("button"),TEXT("All"),WS_CHILD|WS_VISIBLE|BS_AUTORADIOBUTTON,0,0,0,0,hWnd,(HMENU)ID_ALL,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			infobtn=CreateWindow(TEXT("button"),TEXT("Info"),WS_CHILD|WS_VISIBLE|BS_AUTORADIOBUTTON,0,0,0,0,hWnd,(HMENU)ID_INFO,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			warnningbtn=CreateWindow(TEXT("button"),TEXT("Warnning"),WS_CHILD|WS_VISIBLE|BS_AUTORADIOBUTTON,0,0,0,0,hWnd,(HMENU)ID_WARNNING,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			errorbtn=CreateWindow(TEXT("button"),TEXT("Error"),WS_CHILD|WS_VISIBLE|BS_AUTORADIOBUTTON,0,0,0,0,hWnd,(HMENU)ID_ERROR,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+			combo=CreateWindow(TEXT("combobox"),TEXT("combo"),WS_CHILD|WS_VISIBLE|CBS_DROPDOWNLIST,0,0,0,0,hWnd,(HMENU)ID_COMBAUDIO,((LPCREATESTRUCT)lParam)->hInstance,NULL);
+
+			SendMessage(combo,CB_INSERTSTRING,0,LPARAM(TEXT("all")));
+			SendMessage(combo,CB_INSERTSTRING,1,LPARAM(TEXT("audio")));
+			SendMessage(combo,CB_INSERTSTRING,2,LPARAM(TEXT("video")));
+			SendMessage(combo,CB_INSERTSTRING,3,LPARAM(TEXT("doc")));
+			SendMessage(combo,CB_INSERTSTRING,4,LPARAM(TEXT("qa")));
+			SendMessage(combo,CB_INSERTSTRING,5,LPARAM(TEXT("vote")));
+			SendMessage(combo,CB_INSERTSTRING,6,LPARAM(TEXT("chat")));
+			SendMessage(combo,CB_INSERTSTRING,7,LPARAM(TEXT("lod")));
+			SendMessage(combo,CB_INSERTSTRING,8,LPARAM(TEXT("ft")));
+			SendMessage(combo, CB_SETCURSEL,0,LPARAM(TEXT("all")));
+
+			hlistview=CreateWindow(TEXT("syslistview32"),TEXT("combo"),WS_VISIBLE|WS_CHILD|WS_BORDER| LVS_REPORT | LVS_SHOWSELALWAYS| WS_VSCROLL, 0, 0,0,0,hWnd, (HMENU)ID_LISTVIEW, ((LPCREATESTRUCT)lParam)->hInstance, NULL);
+
+
+			
+
+			LVCOLUMN  lvColumn={0};
+			lvColumn.mask = LVCF_TEXT + LVCF_FMT + LVCF_WIDTH + LVCF_SUBITEM;
+		    lvColumn.pszText = TEXT("Time");
+			lvColumn.cx = 120;
+			lvColumn.iSubItem = 0;
+			ListView_InsertColumn(hlistview, 0, &lvColumn);
+			
+			lvColumn.pszText = TEXT("Content");
+			lvColumn.cx =600;
+			lvColumn.iSubItem = 1;
+			ListView_InsertColumn(hlistview, 1, &lvColumn);
+		    
+
+
+
+
+			cxChar=HIWORD(GetDialogBaseUnits());
+			cyChar=LOWORD(GetDialogBaseUnits());
+
+			PostMessage(hWnd, WM_SIZE, 0, 0);
+		}
+		return 0;
+
+	case WM_SIZE:
+		MoveWindow(filewayEdit,cxChar,cyChar,18*cxChar,3*cyChar,TRUE);
+		MoveWindow(openfilebtn,20*cxChar,cyChar,5*cxChar,3*cyChar,TRUE);
+		MoveWindow(level,cxChar,5*cyChar,5*cxChar,3*cyChar,TRUE);
+		MoveWindow(module,cxChar,8*cyChar,5*cxChar,3*cyChar,TRUE);
+		MoveWindow(allbtn,5*cxChar,5*cyChar,5*cxChar,3*cyChar,TRUE);
+		MoveWindow(infobtn,10*cxChar,5*cyChar,5*cxChar,3*cyChar,TRUE);
+		MoveWindow(warnningbtn,15*cxChar,5*cyChar,6*cxChar,3*cyChar,TRUE);
+		MoveWindow(errorbtn,21*cxChar,5*cyChar,5*cxChar,3*cyChar,TRUE);
+		MoveWindow(combo,6*cxChar,8*cyChar,13*cxChar,22*cyChar,TRUE);
+		MoveWindow(hlistview,cxChar,30*cyChar,24*cxChar,30*cyChar,TRUE);
+		break;
+
+	case WM_COMMAND:
+		wmId    = LOWORD(wParam);
+		wmEvent = HIWORD(wParam);
+		// 分析菜单选择:
+		switch (wmId)//
+		{
+			
+       {
+			
+		case  ID_OPENFILEBTN:
+
+	
+
+			
+
+
+
+			ofn.lStructSize = sizeof(OPENFILENAME);
+			ofn.hwndOwner=hWnd;
+			ofn.hInstance=NULL;
+			ofn.lpstrFilter=szFilter;                                        //过滤器
+			ofn.lpstrCustomFilter=NULL;
+			ofn.nMaxCustFilter=0;
+			ofn.nFilterIndex=0;
+			ofn.lpstrFile=szFileName;                                        //文件名    含路径
+			ofn.nMaxFile=MAX_PATH;
+			ofn.lpstrFileTitle=szTitleName;                                  //文件名
+			ofn.nMaxFileTitle=MAX_PATH;
+			ofn.lpstrInitialDir=NULL;
+			ofn.lpstrTitle=NULL;
+			ofn.Flags=OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
+			ofn.nFileOffset=0;
+			ofn.nFileExtension=0;
+			ofn.lpstrDefExt=TEXT("txt");
+			ofn.lCustData=0L;
+			ofn.lpfnHook=NULL;
+			ofn.lpTemplateName=NULL;
+			if (GetOpenFileName(&ofn)==TRUE)
+			{
+				SetDlgItemText(hWnd,ID_FILEWAYEDIT,szFileName);
+			}
+
+			std::string lineStr;
+			std::string TimeStr;std::string ConcentStr;
+			//std::string SavelinStr;
+			std::ifstream ifs(szFileName);
+			ifs.is_open();
+
+
+			getline (ifs,lineStr); 
+
+
+
+			//CHAR timeStr[80];
+
+
+			while (!ifs.eof()) 
+
+			{  
+				getline(ifs,lineStr);
+				
+				TimeStr=lineStr.substr(0,12);
+				std::string c=TimeStr.substr(0,1);
+			    if(lineStr.substr(0,1)=='2')
+				{
+                   lineStr.append(lineStr);
+				}
+				ConcentStr=lineStr.erase(0,12);
+				std::vector<std::string>name1;
+				std::vector<std::string>name2;
+				//std::vector<std::string>::iterator result;
+				name1.push_back(ConcentStr);
+				name2.push_back(TimeStr);
+				std::string SavelineStr1;
+				std::string SavelineStr2;
+				for(int i=0; i<name1.size(); i++)
+				{
+					SavelineStr1 +=name1[i];
+
+				}
+				for(int i=0; i<name2.size(); i++)
+				{
+					SavelineStr2 +=name2[i];
+
+				}
+                
+
+
+				//std::wstring lineWstr = UTF8ToUnicode(lineStr);
+
+
+
+
+
+
+
+
+				/////----------------------------------取时间
+				int ix=0;
+				LVITEM vitem={0};		
+				//std::string time1str(timeStr);
+				std::wstring gettimeStr=UTF8ToUnicode(SavelineStr2);
+				//std::wstring gettimeStr=UTF8ToUnicode(time1str);
+				vitem.mask = LVIF_TEXT;
+				vitem.pszText =(LPTSTR)gettimeStr.c_str();
+				vitem.iItem = ix;
+				vitem.iSubItem=0;
+				ListView_InsertItem(hlistview, &vitem);
+
+
+				//////--------------
+				std::wstring GetlineStr=UTF8ToUnicode(SavelineStr1);
+				vitem.mask = LVIF_TEXT;
+				vitem.pszText =(LPTSTR)GetlineStr.c_str();				
+				vitem.iItem = ix;
+				vitem.iSubItem=1;
+				ListView_SetItem(hlistview,&vitem);
+				ix++;
+
+
+
+
+			}		
+			return 0;
+			ifs.close();
+		
+	   }
+		case ID_INFO:
+			/////////////////////////////////////////////////////////////////////////////////////////
+			{
+
+			
+			}
+			/////////////////////////////////////////////////////////////////////////////////////////
+		case IDM_ABOUT:
+			DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, About);
+			break;
+		case IDM_EXIT:
+			DestroyWindow(hWnd);
+			break;
+		default:
+			return DefWindowProc(hWnd, message, wParam, lParam);
+		}
+		break;
+	case WM_PAINT:
+		hdc = BeginPaint(hWnd, &ps);
+		
+		EndPaint(hWnd, &ps);
+		break;
+	case WM_DESTROY:
+		PostQuitMessage(0);
+		break;
+	}
+	return DefWindowProc(hWnd, message, wParam, lParam);
+}
+
+// “关于”框的消息处理程序。
+INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
+{
+	UNREFERENCED_PARAMETER(lParam);
+	switch (message)
+	{
+	case WM_INITDIALOG:
+		return (INT_PTR)TRUE;
+
+	case WM_COMMAND:
+		if (LOWORD(wParam) == IDOK || LOWORD(wParam) == IDCANCEL)
+		{
+			EndDialog(hDlg, LOWORD(wParam));
+			return (INT_PTR)TRUE;
+		}
+		break;
+	}
+	return (INT_PTR)FALSE;
+}
+
+
+
+
+std::wstring UTF8ToUnicode( const std::string &str)
+	{
+		//int  len = 0;
+		//len = str.length();
+		int  unicodeLen = ::MultiByteToWideChar( CP_UTF8,
+			0,
+			str.c_str(),
+			-1,
+			NULL,
+			0 );  
+		wchar_t *  pUnicode;  
+		pUnicode = new  wchar_t[unicodeLen+1];  
+		memset(pUnicode,0,(unicodeLen+1)*sizeof(wchar_t));  
+		::MultiByteToWideChar( CP_UTF8,
+			0,
+			str.c_str(),
+			-1,
+			(LPWSTR)pUnicode,
+			unicodeLen );  
+		std::wstring  rt;  
+		rt = ( wchar_t* )pUnicode;
+		delete  pUnicode; 
+
+		return  rt;  
+	}
+
+
+
+
+/*
+
+
+class ffff
+{
+public:
+	ffff(const std::wstring& searchContent)
+	{
+		sc= searchContent;                                       //查找内容
+	}
+	bool operator ()(std::wstring& eventrecord)
+	{
+		return eventrecord.find_first_of(sc) != eventrecord.npos;
+	}
+
+	std::wstring sc;
+};
+
+std::vector<std::wstring>name1;
+std::vector<std::wstring>::iterator result;
+{
+	std::wstring all;
+	for(int i=0; i<name1.size(); i++)
+	{
+		all +=name1[i];
+		all += L"\r\n";
+
+	}
+
+	SetDlgItemText(hDlg1,IDC_EDIT11,(LPCTSTR)all.c_str());
+
+}*/
+

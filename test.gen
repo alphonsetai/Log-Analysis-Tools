@@ -1,0 +1,874 @@
+﻿Current Program PID = 2288
+20:43:29.17 t=2076 INFO: CoInitialize begin, threadid=2076
+20:43:29.1758 t=200 ERROR: CoInitialize begin, threadid=2076
+20:43:29.17588 t=207689 INFO: CoInitialize begin, threadid=2076
+20:43:29.190 14:02 2015/4/27 t=20 INFO: CoInitialize, threadid=2076
+20:43:29.175 t=2076 ERROR: CoInitialize begin, threadid=2076
+test1
+20:43:34.167 t=2076 INFO: <doc enable="true" maxcount="0"></doc><as enable="true" doublestream="false" maxfps="3" autoscale="false" /><audio enable="true" codec="97"/><video enable="true" maxcount="4" autofps="false" maxfps="20" maxsize="20"/><ft enable="true" maxcount="0" maxs
+20:43:34.167 t=2076 INFO: </name><hostpassword>chinanurse02</hostpassword><license site="30" conf="30" panelist="30" oneconfcontrol="false" ></license><time begin="1381197060" end="" endAlertTimes="" endAlertInterval=""/><ipad enable="true" delay="10"/><doc enable="true" maxcount="0"></doc><as enable="true" doublestream="false" maxfps="3" autoscale="false" /><audio enable="true" codec="97"/><video enable="true" maxcount="4" autofps="false" maxfps="20" maxsize="20"/><ft enable="true" maxcount="0" maxs
+20:43:34.167 t=2076 INFO: ee0d17fdb84808ac2de1638825ed20" siteid="6932" servicetype="0" enablefakeuser="false" defaultPushWebUsercount="false" defaultPushWebUserList="false" ><name><![CDATA[美国注册护士RN/ISPN培训-北京爱护教育集团]]>
+20:43:34.167 t=2076 INFO: tcp://jh76.rt1.gensee.com:443" topsvr="tcp://roothz157.rt1.gensee.com:443" ipowner="1" idcid="ctc"  forcehttp="false" /><conf id="f6
+20:43:34.167 t=2076 INFO: CHttpPingTransport::OnReceive, strXML=<?xml version="1.0" encoding="UTF-8"?><ping><PingResult  result="succeeded" connectsvr="
+20:43:29.190 t=20766 INFO: CoInitialize, threadid=2076
+20:43:29.627 t=2076 INFO: Controler.InitGcc: CreateGCC
+20:43:29.627 t=2076 WARN: Controler.InitGcc: CreateGCC
+20:43:29.627 t=2076 INFO: CConf::Ping, bHost=0,m_bCheckIDC=1,ping address=http://alb1proxy.gensee.com:80
+20:43:29.627 t=2076 INFO: CConf::Ping,,m_ping=0x4c8690 this=0x3750c88
+20:43:29.627 t=2076 WARN: CHttpUrl::SetNameAndPort,inAddrAndPort=alb1proxy.gensee.com:80 this=0x4f31b8
+20:43:29.627 t=2076 INFO: CHttpPingTransport::Connect,addr=http://alb1proxy.gensee.com:80, data=0x22bd620,strBackup=
+20:43:29.627 t=2076 ERROR: CWin32BrowserProxySetting::GetDefaultBrowser, str="C:\Program Files\Tencent\QQBrowser\QQBrowser.exe" "%1"
+20:43:29.627 t=2076 INFO: CWin32BrowserProxySetting::GetIESetting this=0x3394c8
+20:43:29.627 t=2076 INFO: CWin32BrowserProxySetting::GetIESetting,can't get from current user, get it from local machine,ret=2,bEnable=0 this=0x3394c8
+20:43:49.174 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bSpeakerOpened = 0 this=0x3b23d5c
+20:43:49.174 t=2076 INFO: Tony Teng Routine::MasterMode = 0 uh.IsHost() = 0 MyAudioRecording = 0 uh.can_audio_open_self() = 32 MyAudioAvailable = 1 this=0x3b147f0
+20:43:49.174 t=2076 INFO: CUcAudioEngine::SetOption type=0 m_bVad 0 this=0x3f53808
+20:43:49.174 t=2076 INFO: UsAvDeviceSndWebrtc::SetOption AV_DEVICE_VAD is 0 this=0x3f69f28
+20:43:49.174 t=2076 INFO: CUcAudioEngine::SetOption type=3 m_bVad 0 this=0x3f53808
+20:43:49.174 t=2076 INFO: CUcAudioEngine::StartPlayChann, ichannId=1 this=0x3f53808
+20:43:49.174 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay, wChannId=1 this=0x3f69f28
+20:43:49.174 t=2076 INFO: sound AudioDeviceModuleImpl::InitPlayout() this=0x3f69f28
+20:43:49.299 t=3016 ERROR: CMsgQueueBase::Post, m_pendingCount=213,m_threadId=2076
+20:43:49.548 t=3016 INFO: CTPUdpBase::OnRecvRTT2, dwDiff=16, rtt time=78, dwRecvTotal=409, sendTotal=409, recvinterval=137, send interval=121, lost rate=0, lost rate interval=0 this=0x3b24858
+20:43:50.796 t=2076 INFO: AudioDeviceWindowsCore play thread id 7588 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CUcAudioEngine::OnSndDeviceStatusChange, driver 閫氳鑰虫満 (IDT High Definition Audio CODEC) change 2 this=0x3f53808
+20:43:50.796 t=2076 INFO: Audio.AudioEngWrapper::OnAudioDeviceStatusNotify, bMic=0, wDeviceStatus=2 this=0x3b23d80
+20:43:50.796 t=2076 INFO: Tony Teng AUDIO.ModuleImpl.OnDeviceReport: newState = 5 this=0x3b23c30
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bMicOpened = 0 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bSpeakerOpened = 1 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng Routine::MasterMode = 0 uh.IsHost() = 0 MyAudioRecording = 0 uh.can_audio_open_self() = 32 MyAudioAvailable = 1 this=0x3b147f0
+20:43:50.796 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay ret=0 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CUcAudioEngine::StartPlayChann, ichannId=2 this=0x3f53808
+20:43:50.796 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay, wChannId=2 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CUcAudioEngine::OnSndDeviceStatusChange, driver 閫氳鑰虫満 (IDT High Definition Audio CODEC) change 2 this=0x3f53808
+20:43:50.796 t=2076 INFO: Audio.AudioEngWrapper::OnAudioDeviceStatusNotify, bMic=0, wDeviceStatus=2 this=0x3b23d80
+20:43:50.796 t=2076 INFO: Tony Teng AUDIO.ModuleImpl.OnDeviceReport: newState = 5 this=0x3b23c30
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bMicOpened = 0 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bSpeakerOpened = 1 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng Routine::MasterMode = 0 uh.IsHost() = 0 MyAudioRecording = 0 uh.can_audio_open_self() = 32 MyAudioAvailable = 1 this=0x3b147f0
+20:43:50.796 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay ret=0 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CUcAudioEngine::StartPlayChann, ichannId=3 this=0x3f53808
+20:43:50.796 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay, wChannId=3 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CUcAudioEngine::OnSndDeviceStatusChange, driver 閫氳鑰虫満 (IDT High Definition Audio CODEC) change 2 this=0x3f53808
+20:43:50.796 t=2076 INFO: Audio.AudioEngWrapper::OnAudioDeviceStatusNotify, bMic=0, wDeviceStatus=2 this=0x3b23d80
+20:43:50.796 t=2076 INFO: Tony Teng AUDIO.ModuleImpl.OnDeviceReport: newState = 5 this=0x3b23c30
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bMicOpened = 0 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bSpeakerOpened = 1 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng Routine::MasterMode = 0 uh.IsHost() = 0 MyAudioRecording = 0 uh.can_audio_open_self() = 32 MyAudioAvailable = 1 this=0x3b147f0
+20:43:50.796 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay ret=0 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CUcAudioEngine::StartPlayChann, ichannId=4 this=0x3f53808
+20:43:50.796 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay, wChannId=4 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CUcAudioEngine::OnSndDeviceStatusChange, driver 閫氳鑰虫満 (IDT High Definition Audio CODEC) change 2 this=0x3f53808
+20:43:50.796 t=2076 INFO: Audio.AudioEngWrapper::OnAudioDeviceStatusNotify, bMic=0, wDeviceStatus=2 this=0x3b23d80
+20:43:50.796 t=2076 INFO: Tony Teng AUDIO.ModuleImpl.OnDeviceReport: newState = 5 this=0x3b23c30
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bMicOpened = 0 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng UIMainPanel::UpdateUIState: m_bSpeakerOpened = 1 this=0x3b23d5c
+20:43:50.796 t=2076 INFO: Tony Teng Routine::MasterMode = 0 uh.IsHost() = 0 MyAudioRecording = 0 uh.can_audio_open_self() = 32 MyAudioAvailable = 1 this=0x3b147f0
+20:43:50.796 t=2076 INFO: UsAvDeviceSndWebrtc::StartPlay ret=0 this=0x3f69f28
+20:43:50.796 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=7, userid=12588054, result=0 this=0x3750c88
+20:43:50.796 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=2, result=0,resource size=5, userid=12588055 this=0x3b24380
+20:43:50.796 t=2076 INFO: CConf::JoinChannel, dwChannel=13,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.796 t=2076 INFO: VIDEO.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588055 this=0x3f54778
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::CUcAvImageEngine pSink 0x24206e4 this=0x3f6c188
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::Init Enter 21185 this=0x3f6c188
+20:43:50.812 t=2076 INFO: Video.VideoEngWrapper::OnVideoCameraDeviceStatus, wStatus=0 this=0x3f54b00
+20:43:50.812 t=2076 INFO: Video.ModuleImpl.OnDeviceReport: Device=1,Record=0,Play=0 this=0x3f54778
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::OnVideoCameraDeviceStatus wDeviceStatus= 0 this=0x3f6c188
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::Init Left 21185 this=0x3f6c188
+20:43:50.812 t=2076 INFO:  CUcAvImageEngine::SetSSRCId 12588055 this=0x3f6c188
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::SetCapParam this=0x3f6c188
+20:43:50.812 t=2076 INFO: CUcAvImageEngine.InitSendParam bitRate 170 max bit reate 340 width =320 this=0x3f6c188
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::SetCapParam, width=320 height=240 fps=20 this=0x3f6c188
+20:43:50.812 t=2076 INFO: VIDEO.ModuleImpl.DoUpdateResource: ADD, type=0, val=13, desc=GEN_SESS_DEF_CHANN_A this=0x3f54778
+20:43:50.812 t=2076 INFO: VIDEO.ModuleImpl.DoUpdateResource: ADD, type=0, val=14, desc=GEN_SESS_DEF_CHANN_MCU this=0x3f54778
+20:43:50.812 t=2076 INFO: VIDEO.ModuleImpl.DoUpdateResource: ADD, type=0, val=41, desc=VIDEO_12583703 this=0x3f54778
+20:43:50.812 t=2076 INFO: VIDEO.ModuleImpl.WhenNewVideo: chanId=41, remoteSessUserId=12583703, mySessUserId=12588055,m_activedChannel=0,activeOwner=1265942,mine=9901352360 this=0x3f54778
+20:43:50.812 t=2076 INFO: MultiVideoMgr::AddSource: count=1 this=0x3f548d0
+20:43:50.812 t=2076 INFO: VIDEO.ModuleImpl.DoUpdateResource: ADD, type=15, val=4294967295, desc= this=0x3f54778
+20:43:50.812 t=2076 INFO: VIDEO.ModuleImpl.DoUpdateResource: ADD, type=20, val=4294967295, desc= this=0x3f54778
+20:43:50.812 t=2076 INFO: Tony Teng Routine::MasterMode = 0 uh.IsHost() = 0 MyAudioRecording = 0 uh.can_audio_open_self() = 32 MyAudioAvailable = 1 this=0x3b147f0
+20:43:50.812 t=2076 INFO: Video.ModuleImpl::WhenVideoSyncChanged:m_autoSyncVideo=0,vcs=1 this=0x3f54778
+20:43:50.812 t=2076 INFO: Video.ModuleImpl::WhenVideoSyncChanged video(1) OwnerGlobalId = 1265942, OwnerId = 12583703, OwnerName = chinanurse, ChanId=41, Actived=0, Subscribed=0, SubOrderIndex=2130706432 this=0x3f54778
+20:43:50.812 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=13, userid=12588055, result=0 this=0x3750c88
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::ForceKeyFrame bAvg 1 this=0x3f6c188
+20:43:50.812 t=2076 INFO: Video.ModuleImpl::OnReceiveData: sender=12586752,active=1, channelId=41,m_myVideoChannel=0 this=0x3f54778
+20:43:50.812 t=2076 INFO: CConf::JoinChannel, dwChannel=41,des= this=0x3750c88
+20:43:50.812 t=2076 INFO: MultiVideoMgr::UpdateAssociate(): count=1 this=0x3f548d0
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::SetDisplayWndSize videosize m_iWidth 266 m_iHeight 198 this=0x3f6c188
+20:43:50.812 t=2076 INFO: VideoEngWrapper::UpdateRect: cost time=0 ms, w=266, h=198 this=0x3f54b00
+20:43:50.812 t=2076 INFO: VIDEO.VideoEngWrapper::AssociateVideoWnd: hWnd=0x40384, sessUserId=12583703, w=266,h=198 this=0x3f54b00
+20:43:50.812 t=2076 INFO: CUcAvImageEngine::AssociatePlayWnd pWndHandle = 0x40384 sessuserId 12583703 m_dwUserId 12588055 this=0x3f6c188
+20:43:50.812 t=2076 INFO: CUcVideoDecode::CUcVideoDecode this=0x3f69820
+20:43:50.812 t=2076 INFO: CUcVideoDecode::AttachShowWnd m_hParantWnd 0x40384 m_bRenderEnable 1 left 0 right 266 bottom 198 top 0 this=0x3f69820
+20:43:50.812 t=2076 INFO: CUcVideoDecode::Init() m_pDecodeThread = 0x0 this=0x3f69820
+20:43:50.812 t=2076 INFO:     >> Sources(0) ChanId = 41, OwnerGlobalId = 1265942, OwnerId = 12583703, OwnerName = chinanurse, Subscribed = 1, Actived = 1, SubOrderIndex = 2130706432 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(0) ChanId = 41, UserId = 12583703, RwWidth = 266, RwHeight = 198 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(1) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(2) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(3) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(4) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(5) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(6) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(7) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(8) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(9) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(10) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(11) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(12) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(13) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(14) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(15) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(16) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO:     >> Windows(17) ChanId = 0, UserId = 0, RwWidth = -1, RwHeight = -1 this=0x3f548d0
+20:43:50.812 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=3, result=0,resource size=2, userid=12588056 this=0x3b24418
+20:43:50.812 t=2076 INFO: CConf::JoinChannel, dwChannel=15,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.812 t=2076 INFO: PD.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588056 this=0x3b25678
+20:43:50.812 t=2076 INFO: PD.ModuleImpl::OnRegisterConfirm: m_defChannel2All=15 this=0x3b25678
+20:43:50.812 t=2076 INFO: PD.ModuleImpl.ProcessOldDoc: server failover = 0 this=0x3b25678
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::GotoDoc !pDoc this=0x3b259d4
+20:43:50.812 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=1,SessUserID=12588056 this=0x3b16e20
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView !pPage this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView !pPage this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView !pPage this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView !pPage this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.812 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView !pPage this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView !pPage this=0x3b259d4
+20:43:50.828 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=15, userid=12588056, result=0 this=0x3750c88
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData : PDU_TYPE_PD_DOC this=0x3b25678
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView !pPage this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView pPage->m_swfFileName.IsEmpty() this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView pPage->m_swfFileName.IsEmpty() this=0x3b259d4
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=0, nPriority=2
+20:43:50.828 t=2076 INFO: CCacheMgr::SendRequest, send to server, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=0, nPriority=2, rv=0
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=0 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=1, nPriority=2
+20:43:50.828 t=2076 INFO: CCacheMgr::SendRequest, send to server, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=1, nPriority=2, rv=0
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=1 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=2, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=2 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=3, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=3 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=4, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=4 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=5, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=5 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=6, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=6 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=7, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=7 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=8, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=8 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=9, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=9 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=10, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=10 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=11, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=11 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=12, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=12 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=13, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=13 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=14, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=14 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=15, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=15 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=16, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=16 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=17, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=17 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=18, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=18 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=19, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=19 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=20, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=20 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=21, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=21 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=22, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=22 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=23, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=23 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=24, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=24 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=25, nPriority=2
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: m_pSess.RequestCacheData: fileHandle=400897798,blockHandle=25 this=0x3b25678
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData : PDU_TYPE_PD_COMMAND this=0x3b25678
+20:43:50.828 t=2076 INFO: PD.ModuleImpl.OnReceiveData : PDU_TYPE_PD_COMMAND = PD_CMD_ACTIVE, fh=400897798,bh=15 this=0x3b25678
+20:43:50.828 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=15, nPriority=0
+20:43:50.828 t=2076 INFO: CCacheMgr::SendRequest, send to server, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=15, nPriority=0, rv=0
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView pPage->m_swfFileName.IsEmpty() this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:50.828 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView pPage->m_swfFileName.IsEmpty() this=0x3b259d4
+20:43:50.828 t=2076 ERROR: CACEReactor::ProcessHandleEvent(),handle msg too long,dwNow=5305, remain=123,nMsgSize=10 this=0x3a400a0
+20:43:50.828 t=2076 INFO: CCacheMgr::SendRequest, send to server, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=13, nPriority=0, rv=0
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.906 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=12587008,nDataFlag=1 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.OnReceiveData : PDU_TYPE_PD_COMMAND this=0x3b25678
+20:43:50.921 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=4, result=0,resource size=4, userid=12588057 this=0x3f58c10
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=17,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.921 t=2076 INFO: Chat.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588057 this=0x3f58ee0
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=40,des= this=0x3750c88
+20:43:50.921 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=5,SessUserID=12588057 this=0x3b16e7c
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=17, userid=12588057, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=5, result=0,resource size=3, userid=12588058 this=0x4cc798
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=19,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.921 t=2076 INFO: QA.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588058 this=0x3b279a0
+20:43:50.921 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=4,SessUserID=12588058 this=0x3b16e6c
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=19, userid=12588058, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=6, result=0,resource size=2, userid=12588059 this=0x4cc960
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=21,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.921 t=2076 INFO: Vote.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588059 this=0x3f65d58
+20:43:50.921 t=2076 INFO: Vote 002 this=0x3f65d58
+20:43:50.921 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=7,SessUserID=12588059 this=0x3b16e8c
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=21, userid=12588059, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=7, result=0,resource size=3, userid=12588060 this=0x4cca90
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=23,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.921 t=2076 INFO: AS.ModuleImpl.OnRegisterConfirm: nResult=0,my globalid=9901352360,userid=12588060 this=0x3f66ab0
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=25,des= this=0x3750c88
+20:43:50.921 t=2076 INFO: CSession::SetOpt, set max send bw=800 this=0x4cca90
+20:43:50.921 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=10,SessUserID=12588060 this=0x3b16e30
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=23, userid=12588060, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=16, result=0,resource size=4, userid=12588069 this=0x4cccf0
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=30,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.921 t=2076 INFO: Broadcast.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588069 this=0x3f68448
+20:43:50.921 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=11,SessUserID=12588069 this=0x3b16ecc
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=30, userid=12588069, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=19, result=0,resource size=2, userid=12588072 this=0x4cceb8
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=36,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.921 t=2076 INFO: Record.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588072 this=0x3f686d8
+20:43:50.921 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=8,SessUserID=12588072 this=0x3b16ebc
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=36, userid=12588072, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: GcUCRoom.OnResourceUpdate: dwNumber=1 this=0x3cc3040
+20:43:50.921 t=2076 INFO: GcUCRoom.OnResourceUpdate PrivilegeStrategy  Owner = 8389397, size = 32 this=0x3cc3040
+20:43:50.921 t=2076 INFO: PrivilegeStrategy::GpUpdateFromRoom() this=0x3b16ee0
+20:43:50.921 t=2076 INFO: PrivilegeStrategy  Load(BB-FF-FF-7F-00-00-00-00-EF-D1-26-50-00-00-00-00-A8-D1-22-50-00-00-00-00-80-10-00-10-00-00-00-00)(size=32) this=0x3b16ee0
+20:43:50.921 t=2076 INFO: Tony Teng Routine::MasterMode = 0 uh.IsHost() = 0 MyAudioRecording = 0 uh.can_audio_open_self() = 32 MyAudioAvailable = 1 this=0x3b147f0
+20:43:50.921 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 1 play 7114 this=0x3f69f28
+20:43:50.921 t=2076 INFO: CUdpJitterBuffer::ReceivePacket 7114 packet lost 7114 this=0x3f69f28
+20:43:50.921 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 1 play 43552 this=0x3f69f28
+20:43:50.921 t=2076 INFO: CUdpJitterBuffer::ReceivePacket 43552 packet lost 43552 this=0x3f69f28
+20:43:50.921 t=2076 INFO: CSession::HandleSessionRegister, SESSTYPE=20, result=0,resource size=3, userid=12588073 this=0x4ccf50
+20:43:50.921 t=2076 INFO: CConf::JoinChannel, dwChannel=38,des=GEN_SESS_DEF_CHANN_A this=0x3750c88
+20:43:50.921 t=2076 INFO: LiveOD.ModuleImpl.OnRegisterConfirm: nResult=0,userid=12588073 this=0x3f68810
+20:43:50.921 t=2076 INFO: LiveOD.ModuleImpl.OnRegisterConfirm: rh.ReportLODState this=0x3f68810
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.NotifyDocActive: pDoc=0x239bae0, bCanReSync=1, bAnyoneCanSync=0 this=0x3b25678
+20:43:50.921 t=2076 INFO: PD.ModuleImpl.NotifyDocActive: fh=400897798, bh=15,anistep=0 this=0x3b25678
+20:43:50.921 t=2076 INFO: CCacheMgr::RequestCacheData, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=15, nPriority=0
+20:43:50.921 t=2076 INFO: CCacheMgr::SendRequest, send to server, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=15, nPriority=0, rv=0
+20:43:50.921 t=2076 INFO: DelegateMain::LodProcessInfo = 3 this=0x3b14880
+20:43:50.921 t=2076 INFO: CUcAvImageEngine::ForceKeyFrame bAvg 0 this=0x3f6c188
+20:43:50.921 t=2076 INFO: ModuleMgrBase.OnRegisterNotify: Register=1,ModuleID=9,SessUserID=12588073 this=0x3b16eac
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=38, userid=12588073, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: LiveOD.ModuleImpl.OnStopLiveOnDemandConfirm: rh.SetLodState this=0x3f68810
+20:43:50.921 t=2076 INFO: LiveOD.ModuleImpl.OnStopLiveOnDemandConfirm: m_lod_state=0,dwTotalplayTimeStamp=0 this=0x3f68810
+20:43:50.921 t=2076 INFO: LiveOD.ModuleImpl.OnStopLiveOnDemandConfirm: rh.ReportLODState this=0x3f68810
+20:43:50.921 t=2076 INFO: CUcLiveOnDemand::ReceivedData type 2 this=0x4219fa8
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=7, userid=12588054, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=9, userid=12588054, result=0 this=0x3750c88
+20:43:50.921 t=2076 INFO: neteq packet count 6 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 6 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 7 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 7 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 8 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 8 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 9 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 9 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 10 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 10 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 11 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 11 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 12 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 12 this=0x3f69f28
+20:43:50.921 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=8393749, dwSrcUserID=4194816, dwStatus=3 this=0x3cc3040
+20:43:50.921 t=2076 INFO: neteq packet count 13 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 14 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 15 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 16 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 17 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 18 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 19 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 20 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 21 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 22 this=0x3f69f28
+20:43:50.921 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 43576 play 43577 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 23 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 24 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 32 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 33 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 34 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 35 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 36 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 37 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 38 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 39 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 40 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 41 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 42 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 43 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 45 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 46 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 48 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 50 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 51 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 52 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 53 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 54 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 55 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 56 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 57 this=0x3f69f28
+20:43:50.921 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=1 this=0x3cc3040
+20:43:50.921 t=2076 INFO: neteq packet count 58 this=0x3f69f28
+20:43:50.921 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=1 this=0x3cc3040
+20:43:50.921 t=2076 INFO: neteq packet count 59 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 60 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 61 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 62 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 63 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 64 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 65 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 66 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 67 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 68 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 69 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 70 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 71 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 72 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 73 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 74 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 75 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 76 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 77 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 78 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 79 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 80 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 81 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 82 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 83 this=0x3f69f28
+20:43:50.921 t=2076 INFO: neteq packet count 84 this=0x3f69f28
+20:43:50.921 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=1 this=0x3cc3040
+20:43:50.015 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=1 this=0x3cc3040
+20:43:50.015 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=1 this=0x3cc3040
+20:43:50.015 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=1 this=0x3cc3040
+20:43:50.015 t=2076 INFO: CUcVideoDecode::ReceivedAvgPacket timet = 0.066000 wWidth 320 dataPacket len 0 this=0x3f69820
+20:43:50.015 t=2076 INFO: CUcVideoDecode::ReceivedAvgPacket m_pvideoCodec 0x0 length 0 packet size 49 this=0x3f69820
+20:43:50.015 t=2076 INFO: CUcVideoCodec::Init cx 0 cy 0 m_codec_param.m_iQP = 0 this=0x3b5c720
+20:43:50.015 t=2076 INFO: CUcVideoCodec::InitOldDecode() this=0x3b5c720
+20:43:50.015 t=2076 INFO: CUcVideoColorZoom::Init m_wSrcWidth 320 m_wSrcHeight 240 m_srcPixelFormat = 0 m_wDstWidth = 320 m_wDstHeight 240 m_dstPixelFormat 0 rv 0 this=0x3f589d0
+20:43:50.015 t=2076 INFO: CH264Decoder::Init return OK. rv = 0 m_ivideoWidth = 320 m_wVideoHeight 240 this=0x3b5c720
+20:43:50.015 t=2076 INFO: CUcVideoCodec::SetAvgData m_szParamSet 0x3b5c77c m_dwParamSetSize 41 this=0x3b5c720
+20:43:50.015 t=2076 INFO:  CUcVideoCodec::GetVideoInfo m_iWidth=320 m_iHeight=240 this=0x3b5c720
+20:43:50.015 t=2076 INFO: CUcVideoDecode::PreProcessBlock_t() m_wWidth= 320  m_wHeight 240 m_pVideoCodec 0x3b5c720 this=0x3f69820
+20:43:50.015 t=2076 INFO: CRenderTransform::CRenderTransform this=0x3b63010
+20:43:50.015 t=2076 INFO: CUcVideoCodec::Init cx 0 cy 0 m_codec_param.m_iQP = 0 this=0x3b631e0
+20:43:50.015 t=2076 INFO: CUcVideoCodec::InitOldDecode() this=0x3b631e0
+20:43:50.015 t=2076 INFO: CUcVideoColorZoom::Init m_wSrcWidth 320 m_wSrcHeight 240 m_srcPixelFormat = 0 m_wDstWidth = 320 m_wDstHeight 240 m_dstPixelFormat 0 rv 0 this=0x3b18978
+20:43:50.015 t=2076 INFO: CH264Decoder::Init return OK. rv = 0 m_ivideoWidth = 320 m_wVideoHeight 240 this=0x3b631e0
+20:43:50.015 t=2076 INFO: CUcVideoCodec::SetAvgData m_szParamSet 0x3b6323c m_dwParamSetSize 41 this=0x3b631e0
+20:43:50.015 t=2076 INFO:  CUcVideoCodec::GetVideoInfo m_iWidth=320 m_iHeight=240 this=0x3b631e0
+20:43:50.015 t=2076 INFO: CUcVideoColorZoom::Init m_wSrcWidth 320 m_wSrcHeight 240 m_srcPixelFormat = 0 m_wDstWidth = 320 m_wDstHeight 240 m_dstPixelFormat 1 rv 0 this=0x3f6c070
+20:43:50.015 t=2076 INFO: CRenderTransform::SetMediaType PINDIR_INPUT WIDTH = 320 height = 240 this=0x3b63010
+20:43:51.062 t=2076 INFO: CUcVideoColorZoom::Init m_wSrcWidth 320 m_wSrcHeight 240 m_srcPixelFormat = 0 m_wDstWidth = 320 m_wDstHeight 240 m_dstPixelFormat 3 rv 0 this=0x3b2aaf8
+20:43:51.124 t=2076 INFO: CRendererContainer::Init cx = 320 cy 240 hr = 0 this=0x4f00c0
+20:43:51.171 t=2076 INFO: CRendererContainer::Start 1 m_bRunning = 1 this=0x4f00c0
+20:43:51.171 t=2076 INFO: CUcAvDeviceManager::CaculateDisplaySize, OLD width 266 old height 198 m_CaculateSize.m_iWidth= 266 m_CaculateSize.m_iHeight 198 this=0x3f5bca8
+20:43:51.171 t=2076 INFO: CUcVideoDecode::CaculateDisplay m_DisPlayRect.right = 266 m_DisPlayRect.left 0 m_DisPlayRect.top 0 m_DisPlayRect.bottom 198 ivalid 0 this=0x3f69820
+20:43:51.171 t=2076 INFO: CCacheMgr::HandleCacheDataReveive, dwFileHandle=400897798, dwBlockID=0, dwBlockLen=3750, dwPos=0, datalen=3750, is get whole=1
+20:43:51.171 t=2076 INFO: CArmSession::HandleReceiveCacheData,rv=0, m_pSink=0x3b25680
+20:43:51.171 t=2076 INFO: PD.ModuleImpl.OnRequestCacheData: dwFileHandle=400897798,dwBlockID=0,dataLen=3750 this=0x3b25678
+20:43:51.171 t=2076 ERROR: DocModule PDPage::data const CStringWrapper& val = CWS	? this=0x3f588c0
+20:43:51.186 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:51.186 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView pPage->m_swfFileName.IsEmpty() this=0x3b259d4
+20:43:51.186 t=2076 INFO: CCacheMgr::HandleCacheDataReveive, dwFileHandle=400897798, dwBlockID=1, dwBlockLen=9107, dwPos=0, datalen=9107, is get whole=1
+20:43:51.186 t=2076 INFO: CArmSession::HandleReceiveCacheData,rv=0, m_pSink=0x3b25680
+20:43:51.186 t=2076 INFO: PD.ModuleImpl.OnRequestCacheData: dwFileHandle=400897798,dwBlockID=1,dataLen=9107 this=0x3b25678
+20:43:51.186 t=2076 ERROR: DocModule PDPage::data const CStringWrapper& val = CWS	- this=0x3f69bd0
+20:43:51.186 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:51.186 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView pPage->m_swfFileName.IsEmpty() this=0x3b259d4
+20:43:51.186 t=2076 INFO: CCacheMgr::HandleCacheDataReveive, dwFileHandle=400897798, dwBlockID=15, dwBlockLen=9758, dwPos=0, datalen=9758, is get whole=1
+20:43:51.186 t=2076 INFO: CArmSession::HandleReceiveCacheData,rv=0, m_pSink=0x3b25680
+20:43:51.186 t=2076 INFO: PD.ModuleImpl.OnRequestCacheData: dwFileHandle=400897798,dwBlockID=15,dataLen=9758 this=0x3b25678
+20:43:51.186 t=2076 ERROR: DocModule PDPage::data const CStringWrapper& val = CWS	f1 this=0x3f6dd70
+20:43:51.186 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:51.186 t=2076 INFO: CCacheMgr::HandleCacheDataReveive, dwFileHandle=400897798, dwBlockID=13, dwBlockLen=8328, dwPos=0, datalen=8328, is get whole=1
+20:43:51.186 t=2076 INFO: CArmSession::HandleReceiveCacheData,rv=0, m_pSink=0x3b25680
+20:43:51.186 t=2076 INFO: PD.ModuleImpl.OnRequestCacheData: dwFileHandle=400897798,dwBlockID=13,dataLen=8328 this=0x3b25678
+20:43:51.186 t=2076 ERROR: DocModule PDPage::data const CStringWrapper& val = CWS	? this=0x3f6db50
+20:43:51.202 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:51.202 t=2076 INFO: neteq packet count 81 this=0x3f69f28
+20:43:51.202 t=2076 INFO: neteq packet count 82 this=0x3f69f28
+20:43:51.202 t=2076 INFO: neteq packet count 83 this=0x3f69f28
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=13, userid=12588055, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=3 this=0x3cc3040
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=41, userid=12588055, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: GcUCRoom.OnStatus: dwDestUserID=12588053, dwSrcUserID=4194816, dwStatus=3 this=0x3cc3040
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=15, userid=12588056, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=4195584,nDataFlag=1 this=0x3b25678
+20:43:51.202 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=4195584,nDataFlag=1 this=0x3b25678
+20:43:51.202 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=4195584,nDataFlag=1 this=0x3b25678
+20:43:51.202 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=4195584,nDataFlag=1 this=0x3b25678
+20:43:51.202 t=2076 INFO: PD.ModuleImpl.OnReceiveData: dwDestID=12588056,dwSrcID=4195584,nDataFlag=1 this=0x3b25678
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=17, userid=12588057, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=40, userid=12588057, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CCacheMgr::HandleCacheDataReveive, dwFileHandle=400897798, dwBlockID=15, dwBlockLen=9758, dwPos=0, datalen=9758, is get whole=1
+20:43:51.202 t=2076 INFO: CArmSession::HandleReceiveCacheData,rv=0, m_pSink=0x3b25680
+20:43:51.202 t=2076 INFO: PD.ModuleImpl.OnRequestCacheData: dwFileHandle=400897798,dwBlockID=15,dataLen=9758 this=0x3b25678
+20:43:51.202 t=2076 ERROR: DocModule PDPage::data const CStringWrapper& val = CWS	f1 this=0x3f6dd70
+20:43:51.202 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:51.202 t=2076 INFO: neteq packet count 84 this=0x3f69f28
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=19, userid=12588058, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=21, userid=12588059, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=23, userid=12588060, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=25, userid=12588060, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=30, userid=12588069, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=36, userid=12588072, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: CConf::HandleChannelJoinConfirm, channelid=38, userid=12588073, result=0 this=0x3750c88
+20:43:51.202 t=2076 INFO: LiveOD.ModuleImpl.OnUpdateResource: dwNumber=1 this=0x3f68810
+20:43:51.202 t=2076 INFO: LiveOD.ModuleImpl.OnUpdateResource: rh.ReportLODState this=0x3f68810
+20:43:51.202 t=2076 INFO: neteq packet count 85 this=0x3f69f28
+20:43:51.202 t=2076 ERROR: CACEReactor::ProcessHandleEvent(),handle msg too long,dwNow=187, remain=0,nMsgSize=46 this=0x3a400a0
+20:43:51.218 t=2076 INFO: neteq packet count 86 this=0x3f69f28
+20:43:51.389 t=2076 INFO: neteq packet count 84 this=0x3f69f28
+20:43:51.483 t=2076 INFO: MoveDlgAnnoBar::wnd rect:273,109,1363,702
+20:43:51.483 t=2076 INFO: MoveDlgAnnoBar::Toolbar rect:616,109,1020,138
+20:43:51.748 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=108, last=108, m_nCallbackSN=108 this=0x3b249f8
+20:43:51.842 t=2076 INFO: neteq packet count 75 this=0x3f69f28
+20:43:51.842 t=2076 INFO: neteq packet count 76 this=0x3f69f28
+20:43:51.842 t=2076 INFO: neteq packet count 77 this=0x3f69f28
+20:43:51.842 t=2076 INFO: neteq packet count 78 this=0x3f69f28
+20:43:51.842 t=2076 INFO: neteq packet count 79 this=0x3f69f28
+20:43:52.138 t=3016 INFO: CUdpRecvBuffer::CheckRequest, nRequestNum=1, first=52, last=52, m_nCallbackSN=52 this=0x3b24988
+20:43:52.154 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=113, last=113, m_nCallbackSN=113 this=0x3b249f8
+20:43:52.247 t=2076 INFO: neteq packet count 70 this=0x3f69f28
+20:43:52.247 t=2076 INFO: CUdpJitterBuffer::ReceivePacket 100 packet lost 2 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 71 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 72 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 73 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 74 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 75 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 76 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 77 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 78 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 79 this=0x3f69f28
+20:43:52.247 t=2076 INFO: neteq packet count 80 this=0x3f69f28
+20:43:52.310 t=2076 INFO: neteq packet count 79 this=0x3f69f28
+20:43:52.746 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=125, last=125, m_nCallbackSN=125 this=0x3b249f8
+20:43:52.840 t=2076 INFO: neteq packet count 66 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 67 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 68 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 69 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 70 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 71 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 72 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 73 this=0x3f69f28
+20:43:52.840 t=2076 INFO: neteq packet count 74 this=0x3f69f28
+20:43:52.902 t=2076 INFO: neteq packet count 73 this=0x3f69f28
+20:43:52.965 t=2076 INFO: neteq packet count 73 this=0x3f69f28
+20:43:52.027 t=2076 INFO: neteq packet count 72 this=0x3f69f28
+20:43:53.074 t=2076 INFO: neteq packet count 72 this=0x3f69f28
+20:43:53.136 t=2076 INFO: neteq packet count 71 this=0x3f69f28
+20:43:53.199 t=2076 INFO: neteq packet count 71 this=0x3f69f28
+20:43:53.277 t=2076 INFO: neteq packet count 70 this=0x3f69f28
+20:43:53.339 t=2076 INFO: neteq packet count 69 this=0x3f69f28
+20:43:53.402 t=2076 INFO: neteq packet count 68 this=0x3f69f28
+20:43:53.433 t=2076 INFO: neteq packet count 69 this=0x3f69f28
+20:43:53.932 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=144, last=144, m_nCallbackSN=144 this=0x3b249f8
+20:43:53.026 t=2076 INFO: neteq packet count 55 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 56 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 57 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 58 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 59 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 60 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 61 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 62 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 63 this=0x3f69f28
+20:43:53.026 t=2076 INFO: neteq packet count 64 this=0x3f69f28
+20:43:54.072 t=2076 INFO: neteq packet count 63 this=0x3f69f28
+20:43:54.135 t=2076 INFO: neteq packet count 63 this=0x3f69f28
+20:43:54.197 t=2076 INFO: CConf::CalBW, m_dwRecvBW=21, m_dwSendBW=266 this=0x3750c88
+20:43:54.197 t=2076 INFO: neteq packet count 63 this=0x3f69f28
+20:43:54.260 t=2076 INFO: neteq packet count 62 this=0x3f69f28
+20:43:54.322 t=2076 INFO: neteq packet count 61 this=0x3f69f28
+20:43:54.400 t=2076 INFO: neteq packet count 60 this=0x3f69f28
+20:43:54.431 t=2076 INFO: neteq packet count 60 this=0x3f69f28
+20:43:54.494 t=2076 INFO: neteq packet count 60 this=0x3f69f28
+20:43:54.556 t=2076 INFO: neteq packet count 59 this=0x3f69f28
+20:43:54.572 t=3016 INFO: CTPUdpBase::OnRecvRTT2, dwDiff=16, rtt time=78, dwRecvTotal=565, sendTotal=581, recvinterval=156, send interval=172, lost rate=2, lost rate interval=9 this=0x3b24858
+20:43:54.618 t=2076 INFO: neteq packet count 59 this=0x3f69f28
+20:43:54.681 t=2076 INFO: neteq packet count 58 this=0x3f69f28
+20:43:54.728 t=2076 INFO: neteq packet count 58 this=0x3f69f28
+20:43:54.790 t=2076 INFO: neteq packet count 57 this=0x3f69f28
+20:43:55.133 t=3016 INFO: CUdpRecvBuffer::CheckRequest, nRequestNum=1, first=67, last=67, m_nCallbackSN=67 this=0x3b24988
+20:43:55.274 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=167, last=167, m_nCallbackSN=167 this=0x3b249f8
+20:43:55.352 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:55.352 t=2076 INFO: neteq packet count 45 this=0x3f69f28
+20:43:55.352 t=2076 INFO: neteq packet count 46 this=0x3f69f28
+20:43:55.398 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=170, last=170, m_nCallbackSN=170 this=0x3b249f8
+20:43:55.492 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:55.492 t=2076 INFO: neteq packet count 45 this=0x3f69f28
+20:43:55.492 t=2076 INFO: neteq packet count 46 this=0x3f69f28
+20:43:55.492 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:55.492 t=2076 INFO: neteq packet count 48 this=0x3f69f28
+20:43:55.492 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:55.492 t=2076 INFO: neteq packet count 50 this=0x3f69f28
+20:43:55.492 t=2076 INFO: neteq packet count 51 this=0x3f69f28
+20:43:55.508 t=3016 INFO: CUdpRecvBuffer::CheckRequest, nRequestNum=1, first=67, last=67, m_nCallbackSN=67 this=0x3b24988
+20:43:55.835 t=2076 INFO: CCacheMgr::SendRequest, send to server, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=14, nPriority=0, rv=0
+20:43:55.944 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=178, last=178, m_nCallbackSN=178 this=0x3b249f8
+20:43:55.038 t=2076 INFO: neteq packet count 42 this=0x3f69f28
+20:43:55.038 t=2076 INFO: neteq packet count 43 this=0x3f69f28
+20:43:55.038 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:55.038 t=2076 INFO: neteq packet count 45 this=0x3f69f28
+20:43:55.038 t=2076 INFO: neteq packet count 46 this=0x3f69f28
+20:43:55.038 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:55.038 t=2076 INFO: neteq packet count 48 this=0x3f69f28
+20:43:55.038 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:56.319 t=3016 INFO: CUdpRecvBuffer::CheckRequest, nRequestNum=2, first=73, last=74, m_nCallbackSN=73 this=0x3b24988
+20:43:56.412 t=2076 INFO: CCacheMgr::HandleCacheDataReveive, dwFileHandle=400897798, dwBlockID=14, dwBlockLen=7626, dwPos=0, datalen=7626, is get whole=1
+20:43:56.412 t=2076 INFO: CArmSession::HandleReceiveCacheData,rv=0, m_pSink=0x3b25680
+20:43:56.412 t=2076 INFO: PD.ModuleImpl.OnRequestCacheData: dwFileHandle=400897798,dwBlockID=14,dataLen=7626 this=0x3b25678
+20:43:56.412 t=2076 ERROR: DocModule PDPage::data const CStringWrapper& val = CWS	## this=0x3f6dc60
+20:43:56.428 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:56.428 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=186, last=186, m_nCallbackSN=186 this=0x3b249f8
+20:43:56.490 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,callback=187,m_nCallbackSN=186, size=7, nMiss=1 this=0x3b249f8
+20:43:56.490 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,  m_nCallbackSN=194,m_dwRepeatNum=0,m_dwRecvNum=192, m_dwMissNum=2,nCallNum=7 this=0x3b249f8
+20:43:56.490 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 43724 play 43725 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 43 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 45 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 46 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 48 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:56.490 t=2076 INFO: neteq packet count 50 this=0x3f69f28
+20:43:56.522 t=3016 WARN: CUdpRecvBufferRTT::RecvData1, recv less sn=186, m_nCallbackSN=195,m_dwRepeatNum=1,m_dwRecvNum=194, m_dwMissNum=2 this=0x3b249f8
+20:43:56.537 t=2076 INFO: neteq packet count 50 this=0x3f69f28
+20:43:56.600 t=2076 INFO: neteq packet count 50 this=0x3f69f28
+20:43:56.662 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:56.724 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:56.787 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:56.834 t=2076 INFO: stat chan 2 receive  185   packet in 6038 ms! this=0x3f6b044
+20:43:56.834 t=2076 INFO: neteq packet count 49 this=0x3f69f28
+20:43:56.896 t=2076 INFO: neteq packet count 48 this=0x3f69f28
+20:43:56.990 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:56.021 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:57.083 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:57.146 t=2076 INFO: neteq packet count 47 this=0x3f69f28
+20:43:57.192 t=2076 INFO: neteq packet count 46 this=0x3f69f28
+20:43:57.255 t=2076 INFO: neteq packet count 46 this=0x3f69f28
+20:43:57.317 t=3016 INFO: CUdpRecvBuffer::CheckRequest, nRequestNum=1, first=84, last=84, m_nCallbackSN=84 this=0x3b24988
+20:43:57.333 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:57.380 t=2076 INFO: neteq packet count 45 this=0x3f69f28
+20:43:57.442 t=2076 INFO: neteq packet count 45 this=0x3f69f28
+20:43:57.504 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:57.567 t=2076 INFO: neteq packet count 44 this=0x3f69f28
+20:43:57.629 t=2076 INFO: neteq packet count 43 this=0x3f69f28
+20:43:57.692 t=2076 INFO: CUdpJitterBuffer::ReceivePacket 100 packet lost 2 this=0x3f69f28
+20:43:57.692 t=2076 INFO: neteq packet count 43 this=0x3f69f28
+20:43:58.269 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,callback=216,m_nCallbackSN=215, size=3, nMiss=1 this=0x3b249f8
+20:43:58.269 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 43753 play 43754 this=0x3f69f28
+20:43:58.269 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,  m_nCallbackSN=219,m_dwRepeatNum=1,m_dwRecvNum=217, m_dwMissNum=3,nCallNum=3 this=0x3b249f8
+20:43:58.269 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:43:58.269 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:43:58.269 t=2076 INFO: neteq packet count 32 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:43:58.690 t=2076 INFO: neteq packet count 32 this=0x3f69f28
+20:43:58.002 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=227, last=227, m_nCallbackSN=227 this=0x3b249f8
+20:43:59.174 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,callback=228,m_nCallbackSN=227, size=10, nMiss=1 this=0x3b249f8
+20:43:59.174 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,  m_nCallbackSN=234,m_dwRepeatNum=1,m_dwRecvNum=235, m_dwMissNum=4,nCallNum=6 this=0x3b249f8
+20:43:59.174 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:43:59.174 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 43765 play 43766 this=0x3f69f28
+20:43:59.174 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:43:59.174 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:43:59.174 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:43:59.174 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:43:59.174 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:43:59.174 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:43:59.314 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=234, last=234, m_nCallbackSN=234 this=0x3b249f8
+20:43:59.330 t=2076 INFO: CConf::CalBW, m_dwRecvBW=133626, m_dwSendBW=687 this=0x3750c88
+20:43:59.486 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,callback=235,m_nCallbackSN=234, size=8, nMiss=1 this=0x3b249f8
+20:43:59.486 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,  m_nCallbackSN=239,m_dwRepeatNum=1,m_dwRecvNum=239, m_dwMissNum=5,nCallNum=4 this=0x3b249f8
+20:43:59.486 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 43772 play 43773 this=0x3f69f28
+20:43:59.486 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:43:59.486 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:43:59.486 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:43:59.486 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:43:59.564 t=3016 INFO: CTPUdpBase::OnRecvRTT2, dwDiff=16, rtt time=78, dwRecvTotal=755, sendTotal=755, recvinterval=190, send interval=174, lost rate=0, lost rate interval=0 this=0x3b24858
+20:43:59.595 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=239, last=239, m_nCallbackSN=239 this=0x3b249f8
+20:43:59.766 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,callback=240,m_nCallbackSN=239, size=7, nMiss=1 this=0x3b249f8
+20:43:59.766 t=3016 INFO: CUdpRecvBufferRTT::OnTimer,  m_nCallbackSN=244,m_dwRepeatNum=1,m_dwRecvNum=242, m_dwMissNum=6,nCallNum=4 this=0x3b249f8
+20:43:59.766 t=2076 INFO: CUdpJitterBuffer::GetPacket expect packet 43777 play 43778 this=0x3f69f28
+20:43:59.766 t=2076 INFO: neteq packet count 24 this=0x3f69f28
+20:43:59.766 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:43:59.766 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:43:59.766 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:43:59.844 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=244, last=244, m_nCallbackSN=244 this=0x3b249f8
+20:43:59.876 t=3016 INFO: CUdpRecvBuffer::CheckRequest, nRequestNum=1, first=100, last=100, m_nCallbackSN=100 this=0x3b24988
+20:43:59.922 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:43:59.922 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:43:59.922 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:00.078 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=247, last=247, m_nCallbackSN=247 this=0x3b249f8
+20:44:00.156 t=2076 INFO: neteq packet count 24 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.156 t=2076 INFO: neteq packet count 32 this=0x3f69f28
+20:44:00.219 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.250 t=2076 INFO: neteq packet count 32 this=0x3f69f28
+20:44:00.328 t=3016 INFO: CUdpRecvBuffer::CheckRequest, nRequestNum=2, first=100, last=102, m_nCallbackSN=100 this=0x3b24988
+20:44:00.328 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.375 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.437 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.500 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.562 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.624 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.687 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.734 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.796 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.874 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.936 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.999 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:00.030 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:01.108 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:01.155 t=2076 INFO: neteq packet count 31 this=0x3f69f28
+20:44:01.638 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=273, last=273, m_nCallbackSN=273 this=0x3b249f8
+20:44:01.732 t=2076 INFO: neteq packet count 21 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 22 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 23 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 24 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:44:01.732 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:01.779 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:01.826 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:01.857 t=2076 INFO: CCacheMgr::SendRequest, send to server, dwUserID=12588056, dwFileHandle=400897798, dwBlockHandle=16, nPriority=0, rv=0
+20:44:01.888 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:01.935 t=2076 INFO: CCacheMgr::HandleCacheDataReveive, dwFileHandle=400897798, dwBlockID=16, dwBlockLen=8694, dwPos=0, datalen=8694, is get whole=1
+20:44:01.935 t=2076 INFO: CArmSession::HandleReceiveCacheData,rv=0, m_pSink=0x3b25680
+20:44:01.935 t=2076 INFO: PD.ModuleImpl.OnRequestCacheData: dwFileHandle=400897798,dwBlockID=16,dataLen=8694 this=0x3b25678
+20:44:01.935 t=2076 ERROR: DocModule PDPage::data const CStringWrapper& val = CWS	0+ this=0x3f6de80
+20:44:01.950 t=2076 ERROR: DocModule UIDocPanelFlash::UpdateDocView m_IFlash = 0x8db2da4 this=0x3b259d4
+20:44:01.950 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:01.028 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.060 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:02.153 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.184 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:02.247 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:02.309 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:02.356 t=2076 INFO: neteq packet count 30 this=0x3f69f28
+20:44:02.450 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.496 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.543 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.621 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.668 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.746 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:02.793 t=2076 INFO: neteq packet count 29 this=0x3f69f28
+20:44:03.245 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=300, last=300, m_nCallbackSN=300 this=0x3b249f8
+20:44:03.339 t=2076 INFO: stat chan 2 receive  96   packet in 6496 ms! this=0x3f6b044
+20:44:03.339 t=2076 INFO: neteq packet count 19 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 20 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 21 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 22 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 23 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 24 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:03.339 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:03.370 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:44:03.432 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:44:03.495 t=2076 INFO: neteq packet count 28 this=0x3f69f28
+20:44:03.557 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:03.620 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:03.666 t=2076 INFO: CUdpJitterBuffer::ReceivePacket 100 packet lost 8 this=0x3f69f28
+20:44:03.666 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:03.729 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:04.431 t=2076 INFO: CConf::CalBW, m_dwRecvBW=46822, m_dwSendBW=36 this=0x3750c88
+20:44:04.493 t=2076 INFO: neteq packet count 15 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 16 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 17 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 18 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 19 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 20 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 21 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 22 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 23 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 24 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:44:04.493 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:04.524 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:04.556 t=3016 INFO: CTPUdpBase::OnRecvRTT2, dwDiff=16, rtt time=78, dwRecvTotal=908, sendTotal=915, recvinterval=153, send interval=160, lost rate=0, lost rate interval=4 this=0x3b24858
+20:44:04.587 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:04.634 t=2076 INFO: neteq packet count 27 this=0x3f69f28
+20:44:05.070 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=331, last=331, m_nCallbackSN=331 this=0x3b249f8
+20:44:05.148 t=2076 INFO: neteq packet count 19 this=0x3f69f28
+20:44:05.148 t=2076 INFO: neteq packet count 20 this=0x3f69f28
+20:44:05.148 t=2076 INFO: neteq packet count 21 this=0x3f69f28
+20:44:05.148 t=2076 INFO: neteq packet count 22 this=0x3f69f28
+20:44:05.148 t=2076 INFO: neteq packet count 23 this=0x3f69f28
+20:44:05.148 t=2076 INFO: neteq packet count 24 this=0x3f69f28
+20:44:05.148 t=2076 INFO: neteq packet count 25 this=0x3f69f28
+20:44:05.148 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.180 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.226 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.289 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.351 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.398 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.460 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.538 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.585 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.648 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.694 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.788 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.850 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:05.882 t=2076 INFO: neteq packet count 26 this=0x3f69f28
+20:44:06.365 t=3016 INFO: CUdpRecvBufferRTT::SendAck,reqeus size=1, first=352, last=352, m_nCallbackSN=352 this=0x3b249f8
+20:44:06.459 t=2076 INFO: neteq packet count 18 this=0x3f69f28
+20:44:06.459 t=2076 INFO: neteq packet count 19 this=0x3f69f28
